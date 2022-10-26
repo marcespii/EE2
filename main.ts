@@ -8,7 +8,7 @@ function intermitent (vegades: number) {
     }
 }
 function cor (temps: number) {
-    for (let index = 0; index < 2; index++) {
+    for (let index = 0; index < 5; index++) {
         basic.showIcon(IconNames.SmallHeart)
         basic.pause(temps)
         basic.showIcon(IconNames.Heart)
